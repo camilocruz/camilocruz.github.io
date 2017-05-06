@@ -3,6 +3,7 @@
 
 var x=document.getElementById('the-canvas');
 alert(x);
+
 var url = '../pdf/TFHKA_Platino V2.2.pdf';
 
 
