@@ -2,10 +2,6 @@
 // header on that server.
 var url = '../pdf/TFHKA_Platino V2.2.pdf';
 
-// Disable workers to avoid yet another cross-origin issue (workers need
-// the URL of the script to be loaded, and dynamically loading a cross-origin
-// script does not work).
-// PDFJS.disableWorker = true;
 
 // The workerSrc property shall be specified.
 PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
