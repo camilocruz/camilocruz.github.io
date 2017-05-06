@@ -1,9 +1,6 @@
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
 
-var x=document.getElementById('the-canvas');
-alert(x);
-
 var url = '../pdf/TFHKA_Platino V2.2.pdf';
 
 // Disable workers to avoid yet another cross-origin issue (workers need
@@ -29,6 +26,8 @@ loadingTask.promise.then(function(pdf) {
 
     // Prepare canvas using PDF page dimensions
     var canvas = document.getElementById('the-canvas');
+	alert(canvas);
+
     var context = canvas.getContext('2d');
     canvas.height = viewport.height;
     canvas.width = viewport.width;
