@@ -4,13 +4,13 @@
 var url = '../pdf/TFHKA_Platino V2.2.pdf';
 
 // The workerSrc property shall be specified.
-PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+PDFJS.workerSrc = 'pdf.worker.js';
 
 var pdfDoc = null,
     pageNum = 1,
     pageRendering = false,
     pageNumPending = null,
-    scale = 0.8,
+    scale = 0.8
     /*canvas = document.getElementById('the-canvas'),
     ctx = canvas.getContext('2d');*/
 
